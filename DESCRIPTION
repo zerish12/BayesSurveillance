@@ -1,0 +1,34 @@
+Package: BayesSurveillance
+Type: Package
+Title: Bayesian Surveillance Methods for Healthcare Performance Monitoring
+Version: 0.1.0
+Authors@R: person(given = "Muhammad Zahir",
+                  family = "Khan",
+                  email = "zahirstat007@gmail.com",
+                  role = c("aut", "cre"))
+Description: Provides Bayesian surveillance methods for prospective
+    monitoring of healthcare performance, patient safety, and clinical
+    quality indicators. The package implements beta-binomial monitoring
+    for binary outcomes, gamma-Poisson monitoring for count outcomes,
+    posterior predictive alert probabilities, risk-adjusted surveillance,
+    early-warning signal rules, simulation tools, and graphical summaries.
+    Methods are motivated by risk-adjusted monitoring and healthcare
+    surveillance frameworks including Steiner et al. (2000)
+    <doi:10.1093/biostatistics/1.4.441>, Spiegelhalter et al. (2003)
+    <doi:10.1002/sim.1546>, Cook et al. (2011)
+    <doi:10.1136/bmjqs.2008.031831>, and Neuburger et al. (2017)
+    <doi:10.1136/bmjqs-2016-005667>.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.2.0)
+Imports:
+    stats,
+    ggplot2,
+    pROC,
+    rlang
+Suggests:
+    testthat (>= 3.0.0),
+Config/testthat/edition: 3
